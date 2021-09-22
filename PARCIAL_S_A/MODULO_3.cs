@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PARCIAL_S_A
 {
-    public partial class Form1 : Form
+    public partial class MODULO_3 : Form
     {
-        public Form1()
+        public MODULO_3()
         {
             InitializeComponent();
         }
