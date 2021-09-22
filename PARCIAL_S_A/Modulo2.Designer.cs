@@ -29,20 +29,112 @@ namespace PARCIAL_S_A
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.BaseC = new System.Windows.Forms.TextBox();
+            this.AlturaC = new System.Windows.Forms.TextBox();
+            this.BtnCal = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::PARCIAL_S_A.Properties.Resources.modulo2_img;
+            this.panel1.Controls.Add(this.BtnCal);
+            this.panel1.Controls.Add(this.AlturaC);
+            this.panel1.Controls.Add(this.BaseC);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(2, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(795, 447);
+            this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(194, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(424, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Calcular El Area De Un Cuadrado";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 141);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(256, 26);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Digite Base Del Cuadrado";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(435, 141);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(265, 26);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Digite Altura Del Cuadrado";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            // 
+            // BaseC
+            // 
+            this.BaseC.Location = new System.Drawing.Point(8, 183);
+            this.BaseC.Name = "BaseC";
+            this.BaseC.Size = new System.Drawing.Size(248, 20);
+            this.BaseC.TabIndex = 3;
+            // 
+            // AlturaC
+            // 
+            this.AlturaC.Location = new System.Drawing.Point(440, 183);
+            this.AlturaC.Name = "AlturaC";
+            this.AlturaC.Size = new System.Drawing.Size(248, 20);
+            this.AlturaC.TabIndex = 4;
+            // 
+            // BtnCal
+            // 
+            this.BtnCal.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCal.Location = new System.Drawing.Point(284, 294);
+            this.BtnCal.Name = "BtnCal";
+            this.BtnCal.Size = new System.Drawing.Size(143, 65);
+            this.BtnCal.TabIndex = 5;
+            this.BtnCal.Text = "Calcular";
+            this.BtnCal.UseVisualStyleBackColor = true;
+            this.BtnCal.Click += new System.EventHandler(this.BtnCal_Click);
             // 
             // Modulo2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Name = "Modulo2";
             this.Text = "Modulo2";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BtnCal;
+        private System.Windows.Forms.TextBox AlturaC;
+        private System.Windows.Forms.TextBox BaseC;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

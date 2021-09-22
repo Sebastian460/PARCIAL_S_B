@@ -16,5 +16,22 @@ namespace PARCIAL_S_A
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCal_Click(object sender, EventArgs e)
+        {
+            int lado;
+            int altura;
+            lado = int.Parse(BaseC.Text);
+            altura = int.Parse(AlturaC.Text);
+
+            int Res = lado * altura;
+
+            MessageBox.Show("EL AREA DEL CUADRADO ES :" + Res + " ", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
