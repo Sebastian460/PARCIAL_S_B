@@ -16,7 +16,7 @@ namespace PARCIAL_S_A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Modulo2());
         }
     }
 }

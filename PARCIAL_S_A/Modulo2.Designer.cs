@@ -1,7 +1,7 @@
 ﻿
 namespace PARCIAL_S_A
 {
-    partial class Form1
+    partial class Modulo2
     {
         /// <summary>
         /// Variable del diseñador necesaria.
