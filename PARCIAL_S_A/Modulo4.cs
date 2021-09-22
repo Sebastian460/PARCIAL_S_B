@@ -16,5 +16,17 @@ namespace PARCIAL_S_A
         {
             InitializeComponent();
         }
+
+        private void btnInvertir_Click(object sender, EventArgs e)
+        {
+            string Actual = txtPalabra.Text;
+            string Cambiado = "";
+
+            for (int i = Actual.Length - 1; i >= 0; i--)
+            {
+                Cambiado += Actual.Substring(i, 1);
+            }
+            MessageBox.Show("Palabra Invertida"+ ":" + Cambiado + " ", "Exitoso", MessageBoxButtons.OK, MessageBoxIcon.None);
+        }
     }
 }

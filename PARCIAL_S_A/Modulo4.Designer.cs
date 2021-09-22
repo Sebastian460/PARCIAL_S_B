@@ -58,6 +58,7 @@ namespace PARCIAL_S_A
             this.btnInvertir.TabIndex = 3;
             this.btnInvertir.Text = "Invertir";
             this.btnInvertir.UseVisualStyleBackColor = true;
+            this.btnInvertir.Click += new System.EventHandler(this.btnInvertir_Click);
             // 
             // txtPalabra
             // 

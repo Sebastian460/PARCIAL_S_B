@@ -33,5 +33,22 @@ namespace PARCIAL_S_A
 
             MessageBox.Show("EL AREA DEL CUADRADO ES :" + Res + " ", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btnM6_Click(object sender, EventArgs e)
+        {
+            Modulo6 M6 = new Modulo6();
+            M6.Show();
+        }
+
+        private void btnM1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnM4_Click(object sender, EventArgs e)
+        {
+            Modulo4 M4 = new Modulo4(); 
+            M4.Show();
+        }
     }
 }
