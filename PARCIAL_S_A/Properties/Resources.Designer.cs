@@ -63,6 +63,16 @@ namespace PARCIAL_S_A.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ahorcado {
+            get {
+                object obj = ResourceManager.GetObject("ahorcado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap modulo_4_img {
             get {
                 object obj = ResourceManager.GetObject("modulo_4_img", resourceCulture);
