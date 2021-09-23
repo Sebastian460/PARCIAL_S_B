@@ -69,6 +69,11 @@ namespace PARCIAL_S_A
             this.label5 = new System.Windows.Forms.Label();
             this.txtPalabra = new System.Windows.Forms.TextBox();
             this.BtnIniciar = new System.Windows.Forms.Button();
+            this.BtnM1 = new System.Windows.Forms.Button();
+            this.BtnM5 = new System.Windows.Forms.Button();
+            this.BtnM4 = new System.Windows.Forms.Button();
+            this.BtnM3 = new System.Windows.Forms.Button();
+            this.BtnM2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +83,11 @@ namespace PARCIAL_S_A
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BackgroundImage = global::PARCIAL_S_A.Properties.Resources.ahorcado;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.BtnM2);
+            this.panel1.Controls.Add(this.BtnM3);
+            this.panel1.Controls.Add(this.BtnM4);
+            this.panel1.Controls.Add(this.BtnM5);
+            this.panel1.Controls.Add(this.BtnM1);
             this.panel1.Controls.Add(this.BtnIniciar);
             this.panel1.Controls.Add(this.txtPalabra);
             this.panel1.Controls.Add(this.label5);
@@ -459,6 +469,7 @@ namespace PARCIAL_S_A
             this.BtnCerrar.TabIndex = 3;
             this.BtnCerrar.Text = "Salir";
             this.BtnCerrar.UseVisualStyleBackColor = false;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // pictureBox1
             // 
@@ -502,6 +513,7 @@ namespace PARCIAL_S_A
             this.txtPalabra.Name = "txtPalabra";
             this.txtPalabra.Size = new System.Drawing.Size(271, 20);
             this.txtPalabra.TabIndex = 37;
+            this.txtPalabra.UseSystemPasswordChar = true;
             // 
             // BtnIniciar
             // 
@@ -513,6 +525,54 @@ namespace PARCIAL_S_A
             this.BtnIniciar.TabIndex = 38;
             this.BtnIniciar.Text = "INICIAR";
             this.BtnIniciar.UseVisualStyleBackColor = false;
+            this.BtnIniciar.Click += new System.EventHandler(this.BtnIniciar_Click);
+            // 
+            // BtnM1
+            // 
+            this.BtnM1.Location = new System.Drawing.Point(621, 419);
+            this.BtnM1.Name = "BtnM1";
+            this.BtnM1.Size = new System.Drawing.Size(30, 25);
+            this.BtnM1.TabIndex = 39;
+            this.BtnM1.Text = "M1";
+            this.BtnM1.UseVisualStyleBackColor = true;
+            // 
+            // BtnM5
+            // 
+            this.BtnM5.Location = new System.Drawing.Point(765, 419);
+            this.BtnM5.Name = "BtnM5";
+            this.BtnM5.Size = new System.Drawing.Size(30, 25);
+            this.BtnM5.TabIndex = 40;
+            this.BtnM5.Text = "M5";
+            this.BtnM5.UseVisualStyleBackColor = true;
+            // 
+            // BtnM4
+            // 
+            this.BtnM4.Location = new System.Drawing.Point(729, 419);
+            this.BtnM4.Name = "BtnM4";
+            this.BtnM4.Size = new System.Drawing.Size(30, 25);
+            this.BtnM4.TabIndex = 41;
+            this.BtnM4.Text = "M4";
+            this.BtnM4.UseVisualStyleBackColor = true;
+            this.BtnM4.Click += new System.EventHandler(this.BtnM4_Click);
+            // 
+            // BtnM3
+            // 
+            this.BtnM3.Location = new System.Drawing.Point(693, 419);
+            this.BtnM3.Name = "BtnM3";
+            this.BtnM3.Size = new System.Drawing.Size(30, 25);
+            this.BtnM3.TabIndex = 42;
+            this.BtnM3.Text = "M3";
+            this.BtnM3.UseVisualStyleBackColor = true;
+            // 
+            // BtnM2
+            // 
+            this.BtnM2.Location = new System.Drawing.Point(657, 419);
+            this.BtnM2.Name = "BtnM2";
+            this.BtnM2.Size = new System.Drawing.Size(30, 25);
+            this.BtnM2.TabIndex = 43;
+            this.BtnM2.Text = "M2";
+            this.BtnM2.UseVisualStyleBackColor = true;
+            this.BtnM2.Click += new System.EventHandler(this.BtnM2_Click);
             // 
             // Modulo6
             // 
@@ -571,5 +631,10 @@ namespace PARCIAL_S_A
         private System.Windows.Forms.Button BtnIniciar;
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BtnM2;
+        private System.Windows.Forms.Button BtnM3;
+        private System.Windows.Forms.Button BtnM4;
+        private System.Windows.Forms.Button BtnM5;
+        private System.Windows.Forms.Button BtnM1;
     }
 }

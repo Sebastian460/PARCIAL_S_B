@@ -20,9 +20,9 @@ namespace PARCIAL_S_A
         private void btnInvertir_Click(object sender, EventArgs e)
         {
             string Actual = txtPalabra.Text;
-            string Cambiado = "";
+            string Cambiado = " ";
 
-            for (int i = Actual.Length - 1; i >= 0; i--)
+            for (int i = Actual.Length; i -1>= 0; i--)
             {
                 Cambiado += Actual.Substring(i, 1);
             }
