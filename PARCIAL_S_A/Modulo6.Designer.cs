@@ -68,7 +68,7 @@ namespace PARCIAL_S_A
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtPalabra = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnIniciar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -78,7 +78,7 @@ namespace PARCIAL_S_A
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BackgroundImage = global::PARCIAL_S_A.Properties.Resources.ahorcado;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.BtnIniciar);
             this.panel1.Controls.Add(this.txtPalabra);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.BtnC);
@@ -503,16 +503,16 @@ namespace PARCIAL_S_A
             this.txtPalabra.Size = new System.Drawing.Size(271, 20);
             this.txtPalabra.TabIndex = 37;
             // 
-            // button1
+            // BtnIniciar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(450, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 36);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "INICIAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnIniciar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BtnIniciar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIniciar.Location = new System.Drawing.Point(450, 65);
+            this.BtnIniciar.Name = "BtnIniciar";
+            this.BtnIniciar.Size = new System.Drawing.Size(95, 36);
+            this.BtnIniciar.TabIndex = 38;
+            this.BtnIniciar.Text = "INICIAR";
+            this.BtnIniciar.UseVisualStyleBackColor = false;
             // 
             // Modulo6
             // 
@@ -568,7 +568,7 @@ namespace PARCIAL_S_A
         private System.Windows.Forms.Button BtnZ;
         private System.Windows.Forms.Button BtnB;
         private System.Windows.Forms.Button BtnA;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnIniciar;
         private System.Windows.Forms.TextBox txtPalabra;
         private System.Windows.Forms.Label label5;
     }
