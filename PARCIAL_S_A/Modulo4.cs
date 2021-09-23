@@ -28,5 +28,22 @@ namespace PARCIAL_S_A
             }
             MessageBox.Show("Palabra Invertida"+ ":" + Cambiado + " ", "Exitoso", MessageBoxButtons.OK, MessageBoxIcon.None);
         }
+
+        private void BtnM1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnM2_Click(object sender, EventArgs e)
+        {
+            Modulo2 M2 = new Modulo2();
+            M2.Show();
+        }
+
+        private void BtnM6_Click(object sender, EventArgs e)
+        {
+            Modulo6 M6 = new Modulo6();
+            M6.Show();
+        }
     }
 }
