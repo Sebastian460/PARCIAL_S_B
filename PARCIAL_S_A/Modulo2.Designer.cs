@@ -71,7 +71,7 @@ namespace PARCIAL_S_A
             this.btnM6.TabIndex = 11;
             this.btnM6.Text = "M6";
             this.btnM6.UseVisualStyleBackColor = true;
-            this.btnM6.Click += new System.EventHandler(this.btnM6_Click);
+            this.btnM6.Click += new System.EventHandler(this.BtnM6_Click);
             // 
             // btnM5
             // 
@@ -90,7 +90,7 @@ namespace PARCIAL_S_A
             this.btnM4.TabIndex = 9;
             this.btnM4.Text = "M4";
             this.btnM4.UseVisualStyleBackColor = true;
-            this.btnM4.Click += new System.EventHandler(this.btnM4_Click);
+            this.btnM4.Click += new System.EventHandler(this.BtnM4_Click);
             // 
             // btnM3
             // 
@@ -109,7 +109,7 @@ namespace PARCIAL_S_A
             this.btnM1.TabIndex = 7;
             this.btnM1.Text = "M1";
             this.btnM1.UseVisualStyleBackColor = true;
-            this.btnM1.Click += new System.EventHandler(this.btnM1_Click);
+            this.btnM1.Click += new System.EventHandler(this.BtnM1_Click);
             // 
             // BtnCal
             // 
@@ -168,7 +168,7 @@ namespace PARCIAL_S_A
             this.label1.TabIndex = 0;
             this.label1.Text = "Calcular El Area De Un Cuadrado";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Modulo2
             // 

@@ -45,5 +45,6 @@ namespace PARCIAL_S_A
             Modulo6 M6 = new Modulo6();
             M6.Show();
         }
+
     }
 }

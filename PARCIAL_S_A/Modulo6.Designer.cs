@@ -142,6 +142,7 @@ namespace PARCIAL_S_A
             this.BtnC.TabIndex = 35;
             this.BtnC.Text = "C";
             this.BtnC.UseVisualStyleBackColor = true;
+            this.BtnC.Click += new System.EventHandler(this.BtnC_Click);
             // 
             // BtnD
             // 
@@ -152,6 +153,7 @@ namespace PARCIAL_S_A
             this.BtnD.TabIndex = 34;
             this.BtnD.Text = "D";
             this.BtnD.UseVisualStyleBackColor = true;
+            this.BtnD.Click += new System.EventHandler(this.BtnD_Click);
             // 
             // BtnE
             // 
@@ -162,6 +164,7 @@ namespace PARCIAL_S_A
             this.BtnE.TabIndex = 33;
             this.BtnE.Text = "E";
             this.BtnE.UseVisualStyleBackColor = true;
+            this.BtnE.Click += new System.EventHandler(this.BtnE_Click);
             // 
             // BtnF
             // 
@@ -172,6 +175,7 @@ namespace PARCIAL_S_A
             this.BtnF.TabIndex = 32;
             this.BtnF.Text = "F";
             this.BtnF.UseVisualStyleBackColor = true;
+            this.BtnF.Click += new System.EventHandler(this.BtnF_Click);
             // 
             // BtnG
             // 
@@ -182,6 +186,7 @@ namespace PARCIAL_S_A
             this.BtnG.TabIndex = 31;
             this.BtnG.Text = "G";
             this.BtnG.UseVisualStyleBackColor = true;
+            this.BtnG.Click += new System.EventHandler(this.BtnG_Click);
             // 
             // BtnH
             // 
@@ -192,6 +197,7 @@ namespace PARCIAL_S_A
             this.BtnH.TabIndex = 30;
             this.BtnH.Text = "H";
             this.BtnH.UseVisualStyleBackColor = true;
+            this.BtnH.Click += new System.EventHandler(this.BtnH_Click);
             // 
             // BtnM
             // 
@@ -202,6 +208,7 @@ namespace PARCIAL_S_A
             this.BtnM.TabIndex = 29;
             this.BtnM.Text = "M";
             this.BtnM.UseVisualStyleBackColor = true;
+            this.BtnM.Click += new System.EventHandler(this.BtnM_Click);
             // 
             // BtnN
             // 
@@ -212,6 +219,7 @@ namespace PARCIAL_S_A
             this.BtnN.TabIndex = 28;
             this.BtnN.Text = "N";
             this.BtnN.UseVisualStyleBackColor = true;
+            this.BtnN.Click += new System.EventHandler(this.BtnN_Click);
             // 
             // BtnÑ
             // 
@@ -222,6 +230,7 @@ namespace PARCIAL_S_A
             this.BtnÑ.TabIndex = 27;
             this.BtnÑ.Text = "Ñ";
             this.BtnÑ.UseVisualStyleBackColor = true;
+            this.BtnÑ.Click += new System.EventHandler(this.BtnÑ_Click);
             // 
             // BtnO
             // 
@@ -232,6 +241,7 @@ namespace PARCIAL_S_A
             this.BtnO.TabIndex = 26;
             this.BtnO.Text = "O";
             this.BtnO.UseVisualStyleBackColor = true;
+            this.BtnO.Click += new System.EventHandler(this.BtnO_Click);
             // 
             // BtnP
             // 
@@ -242,6 +252,7 @@ namespace PARCIAL_S_A
             this.BtnP.TabIndex = 25;
             this.BtnP.Text = "P";
             this.BtnP.UseVisualStyleBackColor = true;
+            this.BtnP.Click += new System.EventHandler(this.BtnP_Click);
             // 
             // BtnQ
             // 
@@ -252,6 +263,7 @@ namespace PARCIAL_S_A
             this.BtnQ.TabIndex = 24;
             this.BtnQ.Text = "Q";
             this.BtnQ.UseVisualStyleBackColor = true;
+            this.BtnQ.Click += new System.EventHandler(this.BtnQ_Click);
             // 
             // BtnR
             // 
@@ -262,6 +274,7 @@ namespace PARCIAL_S_A
             this.BtnR.TabIndex = 23;
             this.BtnR.Text = "R";
             this.BtnR.UseVisualStyleBackColor = true;
+            this.BtnR.Click += new System.EventHandler(this.BtnR_Click);
             // 
             // BtnS
             // 
@@ -272,6 +285,7 @@ namespace PARCIAL_S_A
             this.BtnS.TabIndex = 22;
             this.BtnS.Text = "S";
             this.BtnS.UseVisualStyleBackColor = true;
+            this.BtnS.Click += new System.EventHandler(this.BtnS_Click);
             // 
             // BtnI
             // 
@@ -282,6 +296,7 @@ namespace PARCIAL_S_A
             this.BtnI.TabIndex = 21;
             this.BtnI.Text = "I";
             this.BtnI.UseVisualStyleBackColor = true;
+            this.BtnI.Click += new System.EventHandler(this.BtnI_Click);
             // 
             // BtnT
             // 
@@ -292,6 +307,7 @@ namespace PARCIAL_S_A
             this.BtnT.TabIndex = 20;
             this.BtnT.Text = "T";
             this.BtnT.UseVisualStyleBackColor = true;
+            this.BtnT.Click += new System.EventHandler(this.BtnT_Click);
             // 
             // BtnJ
             // 
@@ -302,6 +318,7 @@ namespace PARCIAL_S_A
             this.BtnJ.TabIndex = 19;
             this.BtnJ.Text = "J";
             this.BtnJ.UseVisualStyleBackColor = true;
+            this.BtnJ.Click += new System.EventHandler(this.BtnJ_Click);
             // 
             // BtnU
             // 
@@ -312,6 +329,7 @@ namespace PARCIAL_S_A
             this.BtnU.TabIndex = 18;
             this.BtnU.Text = "U";
             this.BtnU.UseVisualStyleBackColor = true;
+            this.BtnU.Click += new System.EventHandler(this.BtnU_Click);
             // 
             // BtnK
             // 
@@ -322,6 +340,7 @@ namespace PARCIAL_S_A
             this.BtnK.TabIndex = 17;
             this.BtnK.Text = "K";
             this.BtnK.UseVisualStyleBackColor = true;
+            this.BtnK.Click += new System.EventHandler(this.BtnK_Click);
             // 
             // BtnV
             // 
@@ -332,6 +351,7 @@ namespace PARCIAL_S_A
             this.BtnV.TabIndex = 16;
             this.BtnV.Text = "V";
             this.BtnV.UseVisualStyleBackColor = true;
+            this.BtnV.Click += new System.EventHandler(this.BtnV_Click);
             // 
             // BtnL
             // 
@@ -342,6 +362,7 @@ namespace PARCIAL_S_A
             this.BtnL.TabIndex = 15;
             this.BtnL.Text = "L";
             this.BtnL.UseVisualStyleBackColor = true;
+            this.BtnL.Click += new System.EventHandler(this.BtnL_Click);
             // 
             // BtnW
             // 
@@ -352,6 +373,7 @@ namespace PARCIAL_S_A
             this.BtnW.TabIndex = 14;
             this.BtnW.Text = "W";
             this.BtnW.UseVisualStyleBackColor = true;
+            this.BtnW.Click += new System.EventHandler(this.BtnW_Click);
             // 
             // BtnX
             // 
@@ -362,6 +384,7 @@ namespace PARCIAL_S_A
             this.BtnX.TabIndex = 13;
             this.BtnX.Text = "X";
             this.BtnX.UseVisualStyleBackColor = true;
+            this.BtnX.Click += new System.EventHandler(this.BtnX_Click);
             // 
             // BtnY
             // 
@@ -372,6 +395,7 @@ namespace PARCIAL_S_A
             this.BtnY.TabIndex = 12;
             this.BtnY.Text = "Y";
             this.BtnY.UseVisualStyleBackColor = true;
+            this.BtnY.Click += new System.EventHandler(this.BtnY_Click);
             // 
             // BtnZ
             // 
@@ -382,6 +406,7 @@ namespace PARCIAL_S_A
             this.BtnZ.TabIndex = 11;
             this.BtnZ.Text = "Z";
             this.BtnZ.UseVisualStyleBackColor = true;
+            this.BtnZ.Click += new System.EventHandler(this.BtnZ_Click);
             // 
             // BtnB
             // 
@@ -392,6 +417,7 @@ namespace PARCIAL_S_A
             this.BtnB.TabIndex = 10;
             this.BtnB.Text = "B";
             this.BtnB.UseVisualStyleBackColor = true;
+            this.BtnB.Click += new System.EventHandler(this.BtnB_Click);
             // 
             // BtnA
             // 
@@ -402,6 +428,7 @@ namespace PARCIAL_S_A
             this.BtnA.TabIndex = 9;
             this.BtnA.Text = "A";
             this.BtnA.UseVisualStyleBackColor = true;
+            this.BtnA.Click += new System.EventHandler(this.BtnA_Click);
             // 
             // lblVidas
             // 

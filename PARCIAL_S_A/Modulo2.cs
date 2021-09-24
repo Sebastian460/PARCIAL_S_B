@@ -17,7 +17,7 @@ namespace PARCIAL_S_A
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -34,18 +34,18 @@ namespace PARCIAL_S_A
             MessageBox.Show("EL AREA DEL CUADRADO ES :" + Res + " ", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btnM6_Click(object sender, EventArgs e)
+        private void BtnM6_Click(object sender, EventArgs e)
         {
             Modulo6 M6 = new Modulo6();
             M6.Show();
         }
 
-        private void btnM1_Click(object sender, EventArgs e)
+        private void BtnM1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnM4_Click(object sender, EventArgs e)
+        private void BtnM4_Click(object sender, EventArgs e)
         {
             Modulo4 M4 = new Modulo4(); 
             M4.Show();
