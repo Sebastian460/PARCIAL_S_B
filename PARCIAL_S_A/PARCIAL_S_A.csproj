@@ -32,6 +32,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MODULO_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULO_1.Designer.cs">
+      <DependentUpon>MODULO_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MODULO_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULO_3.Designer.cs">
+      <DependentUpon>MODULO_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MODULO_5.cs">
     <Compile Include="Modulo2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MODULO_5.Designer.cs">
+      <DependentUpon>MODULO_5.cs</DependentUpon>
     <Compile Include="Modulo2.Designer.cs">
       <DependentUpon>Modulo2.cs</DependentUpon>
     </Compile>
@@ -66,6 +86,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MODULO_1.resx">
+      <DependentUpon>MODULO_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MODULO_3.resx">
+      <DependentUpon>MODULO_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MODULO_5.resx">
+      <DependentUpon>MODULO_5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulo2.resx">
       <DependentUpon>Modulo2.cs</DependentUpon>
     </EmbeddedResource>
