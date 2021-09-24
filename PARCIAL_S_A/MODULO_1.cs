@@ -54,5 +54,11 @@ namespace PARCIAL_S_A
             MODULO_3 M3 = new MODULO_3();
             M3.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MODULO_5 M5 = new MODULO_5();
+            M5.Show();
+        }
     }
 }
