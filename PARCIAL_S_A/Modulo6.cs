@@ -97,6 +97,7 @@ namespace PARCIAL_S_A
             for (int i = 0; i < Count; i++)
             {
                 if (var == Convert.ToString(Tamaño[i]))
+
                     MostrarPalabra += var;
                 else
                     MostrarPalabra += Convert.ToString(A[i]);
