@@ -27,7 +27,7 @@ namespace PARCIAL_S_A
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,6 +47,12 @@ namespace PARCIAL_S_A
             textBox3.Text = mayor.ToString();
 
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MODULO_3 M3 = new MODULO_3();
+            M3.Show();
         }
     }
 }

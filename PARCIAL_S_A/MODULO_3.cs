@@ -21,9 +21,9 @@ namespace PARCIAL_S_A
         {
             string texto = textBox1.Text;
             int letras = 0;
-            char letra = Convert.ToChar(textBox1.Text.Substring(0,1));
+            char letra = Convert.ToChar(textBox2.Text.Substring(0, 1));
 
-            for (int i=0;i<texto.Length-1;i++)
+            for (int i = 0; i < texto.Length - 1; i++)
             {
                 char letrap = Convert.ToChar(textBox1.Text.Substring(i, 1));
 
@@ -32,14 +32,15 @@ namespace PARCIAL_S_A
                     letras++;
                 }
 
-                textBox2.Text = letra.ToString();
+                textBox3.Text = letras.ToString();
             }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MODULO_1 M1 = new MODULO_1();
+            M1.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
